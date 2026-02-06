@@ -1,0 +1,53 @@
+:root{
+    --b: rgb(26, 20, 35);
+    --y: #f1d302;
+    --r: rgb(163, 11, 55);
+}
+
+.bg-b{
+    background-color: var(--b);
+}
+
+.text-b{
+    color: var(--b);
+}
+
+.bg-y{
+    background-color: var(--y);
+}
+
+.text-y{
+    color: var(--y);
+}
+
+.bg-r{
+    background-color: var(--r);
+}
+
+.text-r{
+    color: var(--r);
+}
+
+body{
+    background-color: var(--b);
+    color: var(--y);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 .25rem var(--r);   
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.countdown{
+    padding: 50px 30px;
+    border: 5px solid var(--y);
+}
