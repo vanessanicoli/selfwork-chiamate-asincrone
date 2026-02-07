@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-
-    <header class="container my-5">
+    <!-- HEADER -->
+    <header class="container mt-2 mb-5">
       <h1 class="display-1 fw-bold text-uppercase text-center">Il tuo countdown</h1>
     </header>
+    <!-- HEADER END -->
 
 
     <div class="container wrapper">
@@ -23,27 +24,30 @@
 
         <div class="row justify-content-center align-items-center">
           <div class="col-8">
-            <input class="form-control form-control-lg" type="number" placeholder="Inserisci i secondi">
+            <input id="inputSeconds" class="form-control form-control-lg" type="number" placeholder="Inserisci i secondi">
           </div>
           <div class="col-8 d-flex justify-content-center my-5">
-            <i class="fa-solid fa-play fa-2x icon me-5"></i>
-            <i class="fa-solid fa-pause fa-2x icon me-5"></i>
-            <i class="fa-solid fa-stop fa-2x icon"></i>
+            <i id="playIcon" class="fa-solid fa-play fa-2x icon me-5"></i>
+            <i id="pauseIcon" class="fa-solid fa-pause fa-2x icon me-5"></i>
+            <i id="stopIcon" class="fa-solid fa-stop fa-2x icon"></i>
           </div>
         </div>
 
       </section>
+      <!-- Input + Buttons End -->
+
 
       <!-- Countdown -->
       <section class="container-fluid my-5">
 
         <div class="row justify-content-center">
-          <div class="col-6">
-            <p class="countdown display-1 fw-bolder text-r text-center">1000</p>
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <p id="countdown" class="countdown display-1 fw-bolder text-r text-center text-uppercase">Start countdown!</p>
           </div>
         </div>
 
       </section>
+      <!-- Countdown End -->
 
     </div>
 

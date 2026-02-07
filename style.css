@@ -48,6 +48,12 @@ input::-webkit-inner-spin-button {
 }
 
 .countdown{
+    width: 650px;
+    height: 300px;
     padding: 50px 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 5px solid var(--y);
 }
